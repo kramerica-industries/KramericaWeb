@@ -1,4 +1,4 @@
-IF OBJECT_ID('ProductTagCountLoadAll') IS NOT NULL DROP FUNCTION ProductTagCountLoadAll
+IF OBJECT_ID('ProductTagCountLoadAll') IS NOT NULL DROP PROCEDURE ProductTagCountLoadAll
 GO
 
 CREATE PROCEDURE [dbo].[ProductTagCountLoadAll]

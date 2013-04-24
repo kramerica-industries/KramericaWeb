@@ -1,4 +1,4 @@
-IF OBJECT_ID('ProductLoadAllPaged') IS NOT NULL DROP FUNCTION ProductLoadAllPaged
+IF OBJECT_ID('ProductLoadAllPaged') IS NOT NULL DROP PROCEDURE ProductLoadAllPaged
 GO
 
 CREATE PROCEDURE [dbo].[ProductLoadAllPaged]
