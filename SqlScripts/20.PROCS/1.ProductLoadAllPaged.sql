@@ -29,6 +29,8 @@ CREATE PROCEDURE [dbo].[ProductLoadAllPaged]
 )
 AS
 BEGIN
+
+        PRINT 'HELLO!'
 	
 	/* Products that filtered by keywords */
 	CREATE TABLE #KeywordProducts
